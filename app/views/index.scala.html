@@ -1,5 +1,14 @@
-@(message: String)
+@(message: String)(orderForm: Form[Order])
+@import helper._
+
+@implicitField = @{ FieldConstructor(bootstrapFieldConstructorTemplate.f) }
 
 @main("Welcome to Play with Bootstrap!") {
 		@message
+
+		<h2>A form</h2>
+
+		@helper.form(action = routes.Application.index()) {
+			@input(orderForm("id"), 'class -> "form-control") {(id, name, value, args) => <input type="date" name="@name" id="@id" @toHtmlArgs(args) value="@value"> }
+		}
 }
