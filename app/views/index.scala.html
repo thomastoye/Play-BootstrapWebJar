@@ -9,6 +9,6 @@
 		<h2>A form</h2>
 
 		@helper.form(action = routes.Application.index()) {
-			@input(orderForm("id"), 'class -> "form-control") {(id, name, value, args) => <input type="date" name="@name" id="@id" @toHtmlArgs(args) value="@value"> }
+			@helper.inputText(orderForm("id"), 'class -> "form-control")
 		}
 }
