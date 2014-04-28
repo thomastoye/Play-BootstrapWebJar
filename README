@@ -1,4 +1,4 @@
-This is your new Play application
-=====================================
+This app is a sample showing how to use the Bootstrap WebJar, how to create a custom field constructor for Bootstrap and how to use that field constructor.
 
-This file will be packaged with your application, when using `play dist`.
+
+Check [my blog post on this](http://thomastoye.be/webdevelopment/making-bootstrap-3-dot-1-x-play-nicely-with-play-framework-2-dot-2-x/) for information and an explanation.
