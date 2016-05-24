@@ -1,4 +1,5 @@
 This app is a sample showing how to use the Bootstrap WebJar, how to create a custom field constructor for Bootstrap and how to use that field constructor.
 
+This repo is obsolete now. If you're looking for to use WebJars with Play 2.5+, see the WebJars docs: http://www.webjars.org/documentation
 
-Check [my blog post on this](http://thomastoye.be/webdevelopment/making-bootstrap-3-dot-1-x-play-nicely-with-play-framework-2-dot-2-x/) for information and an explanation.
+If you're looking to use Bootstrap with Play, check out https://adrianhurt.github.io/play-bootstrap/
